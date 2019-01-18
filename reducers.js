@@ -43,10 +43,10 @@ function visibilityFilterReducer(state = SHOW_ALL, action) {
     }
 }
 
-const appReducer = combineReducers({
+const todoAppReducer = combineReducers({
     visibilityFilterReducer,
     todosReducer
 })
 
-export default appReducer;
+export default todoAppReducer;
 
