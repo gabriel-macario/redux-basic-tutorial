@@ -2,10 +2,10 @@ export const ADD_TODO = 'ADD_TODO';
 export const TOGGLE_TODO = 'TOGGLED_TODO';
 export const SET_VISIBILITY_FILTER = 'SET_VISIBILITY_FILTER'
 
-export const VisilbityFilters = {
-    SHOW_ALL = 'SHOW_ALL',
-    SHOW_COMPLETED = 'SHOW_COMPLETED',
-    SHOW_ACTIVE = 'SHOW_ACTIVE'
+export const VisibilityFilters = {
+    SHOW_ALL: 'SHOW_ALL',
+    SHOW_COMPLETED: 'SHOW_COMPLETED',
+    SHOW_ACTIVE: 'SHOW_ACTIVE'
 }
 
 export function addTodo(text) {
@@ -22,7 +22,7 @@ export function toggleTodo(index) {
     }
 }
 
-export function setVisiblityFilter(filter) {
+export function setVisibilityFilter(filter) {
     return {
         type: SET_VISIBILITY_FILTER,
         filter
